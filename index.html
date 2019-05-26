@@ -1,10 +1,73 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>R. Rahul Reddy</h1>
-<a href="https://medium.com/@rahulreddyr3">Medium</a>
-<a href="https://github.com/rahulreddyr3">Github</a>
-<a href="https://www.linkedin.com/in/rahulreddyr3/">Linkedin</a>
-<a href="https://twitter.com/@rahulreddyr_3">Twitter</a>
+
+<head>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .bg {
+            background-image: url("background.png");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .header {
+            height: 100%;
+            text-align: center;
+        }
+
+        .inner {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .dp {
+            border-radius: 50%;
+        }
+
+        ul {
+            padding-left: 0px;
+        }
+
+        li {
+            display: inline;
+        }
+
+        .logos {
+            height: 4%;
+            width: 4%;
+            border-radius: 100%;
+        }
+
+        .fonts {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+
+</head>
+
+<body class="bg fonts">
+    <div class="inner">
+        <img class="dp" src="dp.jpg" alt="picture" style="width:20%">
+        <p>Hi, i am</p>
+        <h1>Ramreddygari Rahul Reddy</h1>
+        <h5>I am Product Engineer at <a href="https://www.gojek.io/">Go-jek.</a></h5>
+        <ul>
+            <li><a href="https://medium.com/@rahulreddyr3"><img class="logos" src="medium.png" /></a></li>
+            <li><a href="https://github.com/rahulreddyr3"><img class="logos" src="github.svg" /></a></li>
+            <li><a href="https://www.linkedin.com/in/rahulreddyr3/"><img class="logos" src="linkedin.png" /></a></li>
+            <li><a href="https://twitter.com/@rahulreddyr_3"><img class="logos" src="twitter.png" /></a></li>
+        </ul>
+    </div>
 </body>
+
 </html>

@@ -1,2 +1,2 @@
 # rahulreddyr3
-project for my website
+project for my personal website
